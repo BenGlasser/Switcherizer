@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function buttonVal1()
+{
+   if(document.getElementById("button1").value == " No  :'( "){
+      document.getElementById("button1").value=" Yes  :) ";
+      document.getElementById("button2").value=" No  :'( ";
+   }
+}
+function buttonVal2()
+{
+   if(document.getElementById("button2").value == " No  :'( "){
+      document.getElementById("button2").value=" Yes  :) ";
+      document.getElementById("button1").value=" No  :'( ";
+   }
+}
+function play(){
+
+}
+</script>
+</head>
+<body>
+
+<h1>Switching Buttons</h1>
+<p>try to click "No"</p>
+
+<input  class="button" id="button1" type="button" runat="server"  value=" Yes  :) " onMouseOver="buttonVal1()" onClick="play()"/>
+<input  class="button" id="button2" type="button" runat="server"  value=" No  :'( " onMouseOver="buttonVal2()" onClick="play()"/>
+
+</body>
+</html> 
+
