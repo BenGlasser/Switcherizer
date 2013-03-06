@@ -2,18 +2,20 @@
 <html>
 <head>
 <script>
+var yes = " Yes  :) ";
+var no = " No  :'( ";
 function buttonVal1()
 {
-   if(document.getElementById("button1").value == " No  :'( "){
-      document.getElementById("button1").value=" Yes  :) ";
-      document.getElementById("button2").value=" No  :'( ";
+   if(document.getElementById("button1").value == no){
+      document.getElementById("button1").value= yes;
+      document.getElementById("button2").value= no;
    }
 }
 function buttonVal2()
 {
-   if(document.getElementById("button2").value == " No  :'( "){
-      document.getElementById("button2").value=" Yes  :) ";
-      document.getElementById("button1").value=" No  :'( ";
+   if(document.getElementById("button2").value == no){
+      document.getElementById("button2").value= yes;
+      document.getElementById("button1").value= no;
    }
 }
 function play(){
