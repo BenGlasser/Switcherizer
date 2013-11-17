@@ -1,3 +1,4 @@
+[![endorse](https://api.coderwall.com/benglasser/endorsecount.png)](https://coderwall.com/benglasser)
 Switcherizer
 ============
 
